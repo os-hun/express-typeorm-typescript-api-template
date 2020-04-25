@@ -1,0 +1,8 @@
+{
+  "restartable": "rs",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "watch": ["src"],
+  "exec": "ts-node ./src/app.ts"
+}
